@@ -30,14 +30,14 @@ Die Anwendung verwendet SQLite mit zwei Tabellen:
 Tabelle: benutzer
 
 Spalte	Typ	Beschreibung
-id	INTEGER	Eindeutige ID des Benutzers
-name	TEXT	Name des Benutzers
-email	TEXT	E-Mail-Adresse des Benutzers
-age	INTEGER	Alter des Benutzers
+- id	INTEGER	Eindeutige ID des Benutzers
+- name	TEXT	Name des Benutzers
+- email	TEXT	E-Mail-Adresse des Benutzers
+- age	INTEGER	Alter des Benutzers
 
 Tabelle: aufgaben
 
 Spalte	Typ	Beschreibung
-id	INTEGER	Eindeutige ID der Aufgabe
-titel	TEXT	Titel der Aufgabe
-status	TEXT	Status der Aufgabe (offen/erledigt)
+- id	INTEGER	Eindeutige ID der Aufgabe
+- titel	TEXT	Titel der Aufgabe
+-  status	TEXT	Status der Aufgabe (offen/erledigt)
